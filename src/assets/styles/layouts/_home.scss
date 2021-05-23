@@ -1,0 +1,49 @@
+// Button
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+}
+.btn-primary {
+    @apply bg-primary text-white;
+}
+.btn-primary:hover {
+    @apply bg-primary-dark;
+}
+
+//Cards
+.cards {
+    @apply p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5;
+}
+
+.card {
+    @apply rounded overflow-hidden shadow-lg filter contrast-75 hover:contrast-100;
+}
+
+.card-title {
+    @apply font-light tracking-wide uppercase text-xl mb-2;
+}
+
+.card-text {
+    @apply text-gray-700 text-sm leading-6;
+}
+
+//Links
+
+.link {
+    @apply underline hover:text-primary-dark;
+}
+
+.link-header {
+    @apply no-underline hover:text-primary-dark text-secondary;
+}
+
+//List
+
+.list-number {
+    @apply border-solid border-gray-300 border-2 rounded-full w-6 h-6 flex items-center justify-around mr-2 mb-2;
+}
+
+//Blockquote
+
+.blockquote {
+    @apply m-0 italic text-gray-600 relative bg-gray-200 border-l-8 border-solid border-green-600 py-2 px-8 w-5/6;
+}

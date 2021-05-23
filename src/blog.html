@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <title>Blog Jazztabien</title>
+</head>
+
+<body class="body">
+    <header class="grid grid-cols-1 md:grid-cols-2">
+        <div class="text-center self-center flex items-center justify-center md:justify-start md:mx-12 xl:mx-24">
+            <img class="h-20 max-w-xs" alt="Imagen de oscars club" src="./assets/images/logo.png" />
+            <p class="ml-2 text-3xl text-primary font-source-serif-pro">Jazztabien</p>
+        </div>
+        <nav class="text-center self-center">
+            <ul class="inline-block p-0 overflow-hidden">
+                <li class="inline-block ml-5"><b><a class="link-header" href="./members.html">Members</a></b></li>
+                <li class="inline-block ml-5"><b><a class="link-header" href="./blog.html">Blog</a></b>
+                </li>
+                <li class="inline-block ml-5"><b><a class="link-header" href="./blog.html">Gallery</a></b></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="max-w-full">
+        <div class="relative text-center text-white h-60">
+            <img class="h-full w-full object-cover" src="./assets/images/member1.jpg" alt="artista tocando la guitarra">
+            <div class="absolute uppercase top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Como tocar
+                correctamente</div>
+            <div class="absolute right-px left-px bottom-px text-sm">by Ignacio Vicent</div>
+        </div>
+        <article class="max-w-full relative md:max-w-4/5 my-0 mx-auto p-4">
+            <h2 class="text-3xl font-medium mb-2">Los mejores trucos para aprender a tocar la guitarra
+                correctamente.</h2>
+            <p class="mb-4">En tan solo 15 minutos serás capaz de tocar la guitarra como los profesionales, si sigues
+                nuestros pasos
+                al pie de la letra verás que
+                lo consigues de forma fácil y sin esfuerzo. Lo mejor es practicar varias veces lo que te vamos a
+                enseñar, pero no te frustes si no te
+                sale a la primera, hay gente que le cuesta un poco más. Los pasos son:
+            </p>
+
+            <hr class="my-4">
+
+            <dl class="mb-4">
+                <dt class="flex font-bold">
+                    <div class="list-number">
+                        1</div>Afinar la
+                    guitarra
+                </dt>
+                <dd class="ml-10 mb-4">Tener bien afinada la guitarra es lo esencial para que todo suene
+                    correctamente y así puedas
+                    demostrar lo que vales.</dd>
+                <dt class="flex font-bold">
+                    <div class="list-number">2</div>Pua de madera
+                </dt>
+                <dd class="ml-10 mb-4">Las puas que suele tener la gente son de plastico porque ofrecen
+                    una mayor durabilidad, pero las
+                    de
+                    madera
+                    son mas aconsejadas porque raspan de una forma mejor en las cuerdas, por lo que se acaba
+                    consiguiendo un sonido mucho
+                    mas claro con menor esfuerzo.
+                </dd>
+                <dt class="flex font-bold">
+                    <div class="list-number">3</div>Cuerdas de nilon
+                </dt>
+                <dd class="ml-10 mb-4">Las cuerdas es el elemento donde menos atención presta la gente,
+                    pero es el más importante. Unas
+                    cuerdas de mala calidad o
+                    que no sean de nilon, van a perjudicar mucho el sonido que conseguiremos.
+                </dd>
+            </dl>
+
+            <hr class="my-4">
+
+            <div class="mb-4 sm:grid sm:mb-8 sm:grid-cols-2">
+                <div class="mb-3 text-xl">Como tocar correctamente la guitarra una vez tenemos claros los pasos
+                    anteriores y ya los hemos aplicado</div>
+                <div>Una vez ya están claros los pasos anteriores, simplemente debemos coger
+                    soltura con la guitarra y empezar a practicar. Como dice el famoso blog Jazzmania:
+                    <blockquote class="blockquote" cite="https://www.uoc.edu/portal/es/index.html">
+                        Aprender no sirve de nada si no aprendes sin vicios
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="relative h-60 contrast-50">
+                <img class="h-full w-full object-cover" src="./assets/images/member2.jpg"
+                    alt="artista tocando la guitarra">
+            </div>
+
+            <p class="mt-4">Como has podido ver en el blog y en la imagen superior, lo más importante es
+                practicar mucho
+                para así coger un buen nivel. Una última recomendación es que te apuntes a algún grupo o trates
+                de formar algún grupo local, así te obligas a ensayar una o dos veces por semana.
+            </p>
+
+        </article>
+    </main>
+    <footer class="text-center bg-gray-200 md:max-w-full">
+
+        <!-- Grid container -->
+        <div>
+            <!-- Section: Form -->
+            <section>
+                <form action="#">
+                    <div class="flex
+                    flex-col
+                    md:flex-row
+                    justify-center
+                    items-center
+                    p-4">
+                        <div class="mx-3 text-center">
+                            <p>
+                                <strong>Subscribete a nuestra newsletter</strong>
+                            </p>
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="mx-3 w-full my-4 md:w-1/3 md:my-0">
+                            <input
+                                class="w-full
+                                py-2 px-3 rounded-lg border-2 border-gray-300 mt-1 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                type=" email" id="formHeaderEmail" placeholder="Email address" />
+                        </div>
+
+                        <div class="mx-3">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
+
+        <div class="grid grid-cols-1 md:grid-cols-5 text-center">
+
+            <!-- Logo container -->
+            <div class="container flex justify-center items-center">
+                <img class="h-20 max-w-xs" alt="Imagen de Jazztabien" src="./assets/images/logo.png" />
+            </div>
+            <!-- Logo container -->
+
+            <!-- Pages container -->
+            <div class="col-span-2 container pt-2 flex justify-center items-center mb-6 md:mb-0">
+                <ul class="space-x-4">
+                    <li class="inline-block text-primary">
+                        <a class="link" href="./members.html">Portada</a>
+                    </li>
+                    <li class="inline-block text-primary">
+                        <a class="link" href="./members.html">Members</a>
+                    </li>
+                    <li class="inline-block text-primary">
+                        <a class="link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="inline-block text-primary">
+                        <a class="link" href="./blog.html">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pages container -->
+
+            <!-- Social container -->
+            <div class="col-span-2 container flex justify-center items-center">
+                <!-- Section: Social media -->
+                <section class="mb-5 md:mb-0">
+                    <!-- Google -->
+                    <a class="text-primary mx-4 hover:text-primary-dark" href="#" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-google-plus-g text-2xl"></i></a>
+
+                    <!-- Facebook -->
+                    <a class="text-primary mx-4 hover:text-primary-dark" href="#" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-facebook-f text-2xl"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="text-primary mx-4 hover:text-primary-dark" href="#" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-twitter text-2xl"></i></a>
+
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Social container -->
+
+
+        </div>
+    </footer>
+    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>
